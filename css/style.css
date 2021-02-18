@@ -1,0 +1,305 @@
+*, *::before, *::after{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+}
+
+ul li{
+    font-size: 12px;
+}
+
+header{
+    background-image: url('../images/Designing Studio poster – 1.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100vh;
+}
+
+.logo{
+    width: 150px;
+}
+.logo img{
+    width: 100%;
+}
+/* heading style  */
+h1{
+    font-size: 2.9rem;
+    font-weight: 600;
+    color: #000;
+}
+
+p{
+    font-size: 1.2rem;
+}
+.btn-round, .btn-square{
+    outline: none;
+    border: none;
+    
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #fff;
+}
+.btn-round{
+    background: url('../images/Rectangle 154.png');
+    background-size: 100% 100%;
+    padding: 12px 45px;
+}
+.btn-square{
+    background: url('../images/Rectangle 2297.png');
+    background-size: 100% 100%;
+    padding: 12px 55px;
+    margin-left: 120px;
+}
+.group{
+    position: absolute;
+    bottom: -20%;
+    left: 30%;
+}
+
+.design{
+    margin: 110px 0px 0px;
+}
+
+
+.main-title{
+    display: flex;
+    align-items: center;
+}
+
+h2{
+    font-size: 2.1rem;
+    color: #000;
+    font-weight: 500;
+    margin-left: 50px;
+}
+.para, .list-items li{
+    line-height: 40px;
+    font-size: 1.2rem;
+}
+
+.left-side{
+    overflow: hidden;
+    height: 30%;
+}
+.left-side img{
+    width: 100%;
+    height: 100%;
+}
+
+/* poster design style  */
+.poster-design{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.poster{
+    width: 80%;
+    margin: 10px;
+}
+
+.poster img{
+    width: 100%;
+}
+span{
+    float: right;
+    margin-top: -30px;
+    margin-right: 38px;
+    font-weight: 500;
+}
+
+.proImg1{
+    margin-top: 80px;
+}
+.proImg2{
+   margin-bottom: 50px;
+   margin-left: -50px;
+}
+.img-box{
+    position: relative;
+    width: 40%;
+    height: 50%;
+}
+
+.img-box img{
+    width: 70%;
+    height: 100%;
+}
+
+.img-box p{
+    position: absolute;
+    top: 35%;
+    left: 35%;
+    transform: translate(-50%, -40%);
+    font-size: 1.5rem;
+    z-index: 2;
+}
+
+.boy{
+    position: relative;
+}
+.boy img:first-child{
+    position: absolute;
+    left: 25%;
+    bottom: 50%;
+    transform: translate(-10%, 40%);
+}
+.boy img:last-child{
+    position: absolute;
+    right: 2%;
+    bottom: 50%;
+    transform: translate(2%, 40%);
+}
+
+.contact{
+    background-image: url('../images/Rectangle 2308.png');
+    background-size: 100% 100%;
+    margin-top: 130px;
+}
+.contact p{
+    font-size: 1.4rem;
+}
+
+.revision-left{
+    width: 60%;
+    height: 50%;
+}
+.revision-right{
+    width: 40%;
+    height: 80%;
+    position: absolute;
+    top: 31%;
+    right: 5%;
+    /* transform: translate(-20%, -20%); */
+}
+.revision-left img, .revision-right img{
+    width: 100%;
+    height: 100%;
+}
+
+.other-design{
+    width: 80%;
+    margin: auto;
+    position: relative;
+}
+.other-design img{
+    width: 100%;
+    height: 100%;
+}
+
+.other-design p{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    text-align: center;
+}
+
+.visit{
+    width: 100%;
+    height: 50px;
+}
+.visit img{
+    width: 100%;
+    height: 100%;
+}
+
+.choose-design{
+    background-image: url('../images/Group 1815.png');
+    background-size: 100% 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.client{
+    background-image: url('../images/Group 5.png');
+    background-size: 40% 40%;
+    background-repeat: no-repeat;
+}
+.center-div{
+    position: relative;
+}
+.center-div .arrow{
+    position: absolute;
+    right: 20%;
+    bottom: 10%;
+    /* transform: translate(-20%, -10%); */
+}
+
+.get-started{
+    width: 100%;
+    height: 120px;
+    background-color: #2b9de3;
+    color: #fff;
+}
+.get-started h3{
+    color: #fff;
+}
+
+
+.start{
+    outline: none;
+    border: 2px solid #fff;
+    border-radius: 30px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+
+.footer{
+    background-color: #051722;
+    color: #fff;
+}
+
+.links{
+    width: 30%;
+}
+.links h4, h3{
+    color : #2b9de3;
+}
+.links h3{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.f-btn{
+    outline: none;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+}
+.social{
+    margin-right: 20px;
+    text-align: right;
+}
+
+.copyr{
+    font-size: 10px;
+    text-align: center;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    h1{
+        text-align: center;
+    }
+    .group{
+        position: absolute;
+        bottom: -20%;
+        right: -70%;
+        transform: translate(40%, 20%);
+    }
+    .links{
+        width: 100%;
+    }
+    .link{
+        flex-direction: column;
+    }
+    .contacts{
+        flex-direction: column;
+    }
+}
